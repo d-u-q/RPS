@@ -28,6 +28,13 @@ public class RPS {
         cMove = generateMove();
             
         System.out.println(cMove + ", " + pMove);
+        
+        if (cMove == pMove){
+            System.out.println("It's a draw!");
+        }
+        else{
+            //TODO: MAKE IT WORK, DUCK
+        }
     }
     
     private static String generateMove(){
